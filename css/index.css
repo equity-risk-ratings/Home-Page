@@ -155,256 +155,82 @@ p {
   font-size: 1.6rem;
   line-height: 1.4;
 }
-.container {
-  max-width: 800px;
-  width: 100%;
-  margin: 0 auto;
+
+body{
+  background: rgb(236, 230, 230);
 }
-.header-container {
-  background: #F4F4F4;
-  margin: 0 0 0 1%;
-  color: black;
-}
-@media (max-width: 500px) {
-  .header-container {
-    width: 99%;
-    position: fixed;
-    top: 0;
-    overflow: hidden;
-    opacity: 0.8;
-  }
-}
-.header-container h1 {
+/* =================== */
+      /* NAVIGATION STYLE */
+nav {
   display: flex;
   justify-content: space-around;
   align-content: center;
-  font-size: 3.2rem;
-  margin: 0 0 1% 0;
+  margin: 2% 20%;
 }
-@media (max-width: 500px) {
-  .header-container h1 {
-    width: 96%;
-    margin: 0 0 3% 0;
-  }
-}
-.header-container nav {
-  display: flex;
-  justify-content: space-around;
-  align-content: center;
-  margin: 0% 39%;
-  font-size: 1.6rem;
-}
-@media (max-width: 500px) {
-  .header-container nav {
-    width: 92%;
-    margin: 1% 0% 2% 15px;
-  }
-}
-.header-container nav a {
+nav a{
   text-decoration: none;
+  font-size: 1.4rem;
   color: black;
-  margin-bottom: 10px;
 }
-@media (max-width: 500px) {
-  .header-container nav a {
-    margin: 0;
-  }
+/* =================== */
+/* Scrolling Marquee */
+.Marquee h3{
+  font-size: 1.7rem;
+  color: blue;
+  margin: 0 0 2% 0;
 }
-.header-container nav a:nth-child(2):hover,
-.header-container a:nth-child(3):hover {
-  background: grey;
-  color: white;
-  box-shadow: 10px 10px 5px grey;
-}
-footer {
-  color: #22283B;
-  background: #f4f4f4;
-  padding: 20px 0;
-  border: 1px double #e0e0e0;
-  border-radius: 10px;
+/* ============ */
+/* header-content */
+.header-content{
+  /* border: 1px solid red; */
+  width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  justify-content:center;
+  align-content: space-between;
+  
 }
-@media (max-width: 500px) {
-  .home {
-    font-size: 1.8rem;
-  }
+.header-content h1{
+  /* border: 1px solid red; */
+  align-self: center;
+  margin-bottom: 1%;
+  font-size: 3rem;
 }
-.home .intro h2 {
-  padding: 15px;
-  margin-left: 3%;
-}
-@media (max-width: 500px) {
-  .home .intro h2 {
-    width: 95%;
-    display: flex;
-  }
-}
-.home .intro p {
-  padding: 0 15px;
-  margin-left: 3%;
-}
-@media (max-width: 500px) {
-  .home .intro p {
-    width: 95%;
-    display: flex;
-  }
-}
-.home .intro img {
-  width: 94%;
-  margin: 0 2.5%;
-  border-radius: 5px;
-  height: 100%;
-}
-.home .intro img:hover {
-  opacity: 0.7;
-}
-@media (max-width: 500px) {
-  .home .intro img {
-    width: 95%;
-    margin: 73px 2.5%;
-    margin-bottom: 0;
-  }
-}
-.home .space-images {
-  display: flex;
+.header-content p {
+  /* border: 1px solid red; */
+  align-self: center;
   flex-wrap: wrap;
-  width: 100%;
-}
-.home .space-images img {
-  width: 28%;
-  margin: 20px 2.5%;
-  border-radius: 20px;
-  height: 100%;
-}
-.home .space-images img:hover {
-  opacity: 0.7;
-}
-@media (max-width: 500px) {
-  .home .space-images .blast {
-    width: 89%;
-    margin: 20px 7%;
-  }
-  .home .space-images .sky {
-    display: none;
-  }
-  .home .space-images .launch {
-    display: none;
-  }
-}
-.home .visit-planets {
-  padding: 15px;
-}
-.home .visit-planets h3 {
-  margin-top: 11px;
-  margin-left: 3%;
-}
-@media (max-width: 500px) {
-  .home .visit-planets h3 {
-    width: 95%;
-    display: flex;
-  }
-}
-.home .visit-planets p {
-  margin-top: 13px;
-  margin-left: 3%;
-}
-@media (max-width: 500px) {
-  .home .visit-planets p {
-    width: 95%;
-    display: flex;
-  }
-}
-.home .walk {
-  margin-top: 60px;
-  border-top: 1px solid #dee2e6;
-  padding: 50px 60px;
-  display: flex;
-  justify-content: center;
-}
-@media (max-width: 500px) {
-  .home .walk {
-    width: 96%;
-    padding: 0;
-    margin-top: 0;
-    display: flex;
-    justify-content: center;
-    flex-direction: column-reverse;
-    flex-wrap: wrap;
-  }
-}
-.home .walk .walk-text {
-  width: 50%;
-}
-@media (max-width: 500px) {
-  .home .walk .walk-text {
-    width: 100%;
-    margin-top: 4%;
-    margin-left: 3%;
-  }
-}
-.home .walk .walk-text h3 {
-  margin-bottom: 10px;
-}
-@media (max-width: 500px) {
-  .home .walk .walk-text h3 {
-    width: 100%;
-  }
-}
-.home .walk .walk-text p {
-  margin-bottom: 26px;
-}
-.home .walk .walk-text .btn {
-  background: #22283A;
-  color: white;
-  border-radius: 5px;
-  width: 39%;
-  margin: 5% 0%;
+  width: 80%;
+  margin-bottom: 1%;
   font-size: 1.8rem;
-  padding: 8px 35px;
-}
-.home .walk .walk-text .btn:hover {
-  background: white;
-  color: #22283A;
-}
-@media (max-width: 500px) {
-  .home .walk .walk-text .btn {
-    width: 96%;
-    padding: 3% 40%;
-  }
-}
-.home .walk .walk-img {
-  width: 46%;
-  margin-left: 4%;
-}
-.home .walk .walk-img:hover {
-  opacity: 0.7;
-}
-@media (max-width: 500px) {
-  .home .walk .walk-img {
-    width: 96%;
-  }
-}
-.home .walk .walk-img img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-.home footer {
-  border: 1px solid lightgray;
-  width: 100%;
-  display: flex;
-  justify-content: center;
   color: black;
-  background: #F4F4F4;
-  border-radius: 10px;
-  padding: 2% 1%;
-  margin-bottom: 5%;
 }
-@media (max-width: 500px) {
-  .home footer {
-    width: 96%;
-    margin-bottom: 0;
-  }
+/* =============== */
+/* =============== */
+/* about-section */
+.about-section {
+   /* border: 1px solid red; */
+   margin-top: 2%;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content:center;
+   align-content: space-between;
 }
+.about-section h3 {
+ /* border: 1px solid red; */
+ align-self: center;
+ margin-bottom: 1%;
+ font-size: 3rem;
+}
+.about-section p {
+  /* border: 1px solid red; */
+  align-self: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-bottom: 1%;
+  font-size: 1.8rem;
+  color: black;
+}
+/* =============== */
+/* =============== */
