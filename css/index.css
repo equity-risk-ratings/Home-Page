@@ -161,6 +161,12 @@ table {
 }
 /* =================== */
 /* NAVIGATION STYLE */
+@media (max-width: 500px) {
+  .footer-container {
+    display: none;
+    margin-bottom: 5%;
+  }
+}
 .footer-container nav {
   display: flex;
   justify-content: space-around;
@@ -174,6 +180,20 @@ table {
 }
 .footer-container nav a:hover {
   color: white;
+}
+.copyright {
+  display: none;
+}
+@media (max-width: 500px) {
+  .copyright {
+    color: #22283B;
+    background: #f4f4f4;
+    padding: 20px 0;
+    border: 1px double #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 body {
   background: #ece6e6;
@@ -330,6 +350,8 @@ body {
 @media (max-width: 500px) {
   .about-risk h3 {
     width: 81%;
+    font-size: 1.7rem;
+    margin-left: 22%;
   }
 }
 .about-risk p {
@@ -343,6 +365,7 @@ body {
   .about-risk p {
     width: 79%;
     margin-top: 1.5%;
+    margin-left: 20%;
   }
 }
 .about-risk img {
@@ -352,6 +375,6 @@ body {
 @media (max-width: 500px) {
   .about-risk img {
     width: 61%;
-    margin: 2.3% 1% 2% 22%;
+    margin: 2.3% 1% 2% 21%;
   }
 }

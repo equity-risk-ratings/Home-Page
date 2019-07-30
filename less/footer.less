@@ -2,7 +2,10 @@
       /* NAVIGATION STYLE */
 .footer-container{
     // border: 1px solid red;
-
+        @media @phone {
+            display: none;
+            margin-bottom: 5%;
+        }
     nav {
         display: flex;
         justify-content: space-around;
@@ -17,5 +20,19 @@
         nav a:hover{
         color: white;
     } 
+}
+
+.copyright {
+    display: none;
+    @media @phone{
+        color: #22283B;
+        background: #f4f4f4;
+        padding: 20px 0;
+        border: 1px double #e0e0e0;
+        // border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
       
