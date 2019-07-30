@@ -1,5 +1,5 @@
  
-# Please do not clone, add, commit or push on this repo as this is my personal repo for build week. Thank you!
+### Please do not clone, add, commit or push on this repo as this is my personal repo for build week. Thank you!
 
 ## My site is published at https://equity-risk-ratings.github.io/Home-Page-Griffin/
 
