@@ -6,7 +6,7 @@ Thank you!
 Home Page Landing 
 
 Create a home page containing:
-[X] 1. navbar, 
+[X] 1. navbar
 [X] 2. stock market feel (scrolling marquee) 
 [X] 3. style and some about info
 
