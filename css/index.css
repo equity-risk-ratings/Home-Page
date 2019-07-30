@@ -143,6 +143,11 @@ table {
     margin: 5% 0 0 10%;
   }
 }
+@media (max-width: 800px) {
+  .header-container nav {
+    display: none;
+  }
+}
 .header-container nav a {
   text-decoration: none;
   font-size: 1.4rem;
@@ -181,10 +186,26 @@ table {
 .footer-container nav a:hover {
   color: white;
 }
+@media (max-width: 800px) {
+  .footer-container {
+    display: none;
+  }
+}
 .copyright {
   display: none;
 }
 @media (max-width: 500px) {
+  .copyright {
+    color: #22283B;
+    background: #f4f4f4;
+    padding: 20px 0;
+    border: 1px double #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 800px) {
   .copyright {
     color: #22283B;
     background: #f4f4f4;
@@ -206,6 +227,14 @@ body {
     margin-top: 1%;
   }
 }
+@media (max-width: 800px) {
+  .dropdown {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+  }
+}
 @media (max-width: 500px) {
   .dropdown .dropbtn {
     background-color: #4c80e0;
@@ -214,6 +243,17 @@ body {
     font-size: 1.6rem;
     border: none;
     border-radius: 1rem;
+  }
+}
+@media (max-width: 800px) {
+  .dropdown .dropbtn {
+    background-color: #4c80e0;
+    color: white;
+    padding: 3% 10% 3% 10%;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: 1rem;
+    margin-bottom: 2%;
   }
 }
 @media (max-width: 500px) {
@@ -225,9 +265,30 @@ body {
     min-width: 140px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    text-align: center;
+  }
+}
+@media (max-width: 800px) {
+  .dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    margin-top: 10%;
+    background-color: #4C80E0;
+    min-width: 176px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    text-align: center;
   }
 }
 @media (max-width: 500px) {
+  .dropdown .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+}
+@media (max-width: 800px) {
   .dropdown .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -240,13 +301,29 @@ body {
     background-color: #ddd;
   }
 }
+@media (max-width: 800px) {
+  .dropdown .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+}
 @media (max-width: 500px) {
   .dropdown:hover .dropdown-content {
     display: flex;
     flex-direction: column;
   }
 }
+@media (max-width: 800px) {
+  .dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+  }
+}
 @media (max-width: 500px) {
+  .dropdown:hover .dropbtn {
+    background-color: #4c80e0;
+  }
+}
+@media (max-width: 800px) {
   .dropdown:hover .dropbtn {
     background-color: #4c80e0;
   }
@@ -286,6 +363,11 @@ body {
     align-content: space-around;
   }
 }
+@media (max-width: 800px) {
+  .header-content {
+    width: 99%;
+  }
+}
 .header-content h1 {
   align-self: center;
   margin-bottom: 1%;
@@ -314,6 +396,11 @@ body {
     font-size: 1.2rem;
   }
 }
+@media (max-width: 800px) {
+  .header-content p {
+    width: 96%;
+  }
+}
 .header-content img {
   width: 25%;
   margin: 0 0 2% 37%;
@@ -323,6 +410,12 @@ body {
     align-self: center;
     width: 61%;
     margin: 0 0 3% 22%;
+  }
+}
+@media (max-width: 800px) {
+  .header-content img {
+    width: 50%;
+    margin: 1.5% 0 1.5% 25%;
   }
 }
 /* =============== */
@@ -341,6 +434,11 @@ body {
     width: 98%;
   }
 }
+@media (max-width: 800px) {
+  .about-risk {
+    width: 99%;
+  }
+}
 .about-risk h3 {
   align-self: center;
   margin-top: 2%;
@@ -349,10 +447,12 @@ body {
 }
 @media (max-width: 500px) {
   .about-risk h3 {
-    width: 81%;
+    width: 75%;
     font-size: 1.7rem;
-    margin-left: 22%;
+    margin-left: 2%;
   }
+}
+@media (max-width: 800px) {
 }
 .about-risk p {
   align-self: center;
@@ -363,9 +463,13 @@ body {
 }
 @media (max-width: 500px) {
   .about-risk p {
-    width: 79%;
+    width: 90%;
     margin-top: 1.5%;
-    margin-left: 20%;
+  }
+}
+@media (max-width: 800px) {
+  .about-risk p {
+    width: 96%;
   }
 }
 .about-risk img {
@@ -376,5 +480,11 @@ body {
   .about-risk img {
     width: 61%;
     margin: 2.3% 1% 2% 21%;
+  }
+}
+@media (max-width: 800px) {
+  .about-risk img {
+    width: 50%;
+    margin: 1.5% 0 1.5% 25%;
   }
 }

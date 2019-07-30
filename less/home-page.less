@@ -1,13 +1,20 @@
 body{
     background: rgb(236, 230, 230);
   }
+//   NAV DROPDOWN
 .dropdown{
-    @media @phone{
+    @media @phone,{
         position: relative;
         display: flex;
         justify-content: center;
         margin-top: 1%;
     }
+    @media @tablet {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-top: 1%;
+    }   
     .dropbtn {
         @media @phone {
             background-color: #4c80e0;
@@ -16,6 +23,15 @@ body{
             font-size: 1.6rem;
             border: none;
             border-radius: 1rem;
+        }
+        @media @tablet{
+            background-color: #4c80e0;
+            color: white;
+            padding: 3% 10% 3% 10%;
+            font-size: 1.6rem;
+            border: none;
+            border-radius: 1rem;
+            margin-bottom: 2%; 
         }
     }//END .dropbtn
     .dropdown-content {
@@ -27,6 +43,17 @@ body{
             min-width: 140px;
             box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
             z-index: 1;
+            text-align: center;
+        }
+        @media @tablet{
+            display: none;
+            position: absolute;
+            margin-top: 10%;
+            background-color: #4C80E0;
+            min-width: 176px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            text-align: center;
         }
         a {
             @media @phone{
@@ -35,9 +62,18 @@ body{
                 text-decoration: none;
                 display: block;  
             }
+            @media @tablet {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;    
+            }
         }
         a:hover{
             @media @phone{
+                background-color: #ddd;   
+            }
+            @media @tablet {
                 background-color: #ddd;   
             }
         }
@@ -47,15 +83,22 @@ body{
     @media @phone{
         display: flex;
         flex-direction: column;
-        // justify-content: flex-end;
+    }
+    @media @tablet{
+        display: flex;
+        flex-direction: column;
     }
 }
 .dropdown:hover .dropbtn {
     @media @phone {
         background-color: #4c80e0;
         }
-}
-// END DROPDOWN MENU    
+        @media @tablet {
+            background-color: #4c80e0;
+  
+        }
+}// END DROPDOWN MENU    
+
   /* =================== */
   /* Scrolling Marquee */
   .Marquee h3{
@@ -89,13 +132,15 @@ body{
         justify-content:center;
         align-content: space-around;
     }
+    @media @tablet {
+        width: 99%;
+    }
 
     h1{
         // border: 1px solid red;
         align-self: center;
         margin-bottom: 1%;
         font-size: 2rem;
-
         @media @phone {
             // border: 1px solid red;
             align-self: center;
@@ -111,13 +156,15 @@ body{
         margin-bottom: 1%;
         font-size: 1.4rem;
         color: black;
-
         @media @phone {
             // border: 1px solid red;
             align-self: center;
             width: 60%;
             margin: 2% 0 3% 4%;
             font-size: 1.2rem;
+        }
+        @media @tablet {
+            width: 96%;
         }
     }
     img {
@@ -128,6 +175,10 @@ body{
             align-self: center;
             width: 61%;
             margin: 0 0 3% 22%;
+        }
+        @media @tablet{
+            width: 50%;
+            margin: 1.5% 0 1.5% 25%;
         }
     }
   }
@@ -146,7 +197,9 @@ body{
      @media @phone {
          width: 98%;
      }
-     
+     @media @tablet {
+        width: 99%
+     }
       h3 {
 // border: 1px solid red;
    align-self: center;
@@ -155,10 +208,13 @@ body{
    font-size: 2rem;
 
    @media @phone {
-    // border: 1px solid red;
-    width: 81%;
+    width: 75%;
     font-size: 1.7rem;
-    margin-left: 22%;
+    margin-left: 2%;
+  }
+  @media @tablet {
+    //   border: 1px solid red;
+    //   width: 50%;
   }
 }
    p {
@@ -168,11 +224,13 @@ body{
     width: 40%;
     font-size: 1.4rem;
     color: black;
-
     @media @phone {
-        width: 79%;
-        margin-top: 1.5%;
-        margin-left: 20%;
+        width: 90%;
+        margin-top: 1.5%;  
+    }
+    @media @tablet {
+        // border: 1px solid red;
+        width: 96%;
     }
   }
   img{
@@ -182,6 +240,10 @@ body{
       @media @phone {
           width: 61%;
           margin: 2.3% 1% 2% 21%;
+      }
+      @media @tablet {
+        width: 50%;
+        margin: 1.5% 0 1.5% 25%; 
       }
   }
 }//END OF CODE     
