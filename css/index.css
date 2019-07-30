@@ -178,8 +178,58 @@ table {
 body {
   background: #ece6e6;
 }
-@mobile (max-width: 500px) {
-  display: flex;
+@media (max-width: 500px) {
+  .dropdown {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+  }
+}
+@media (max-width: 500px) {
+  .dropdown .dropbtn {
+    background-color: #4c80e0;
+    color: white;
+    padding: 3% 10% 3% 10%;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: 1rem;
+  }
+}
+@media (max-width: 500px) {
+  .dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    margin-top: 11.9%;
+    background-color: #4C80E0;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+}
+@media (max-width: 500px) {
+  .dropdown .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+}
+@media (max-width: 500px) {
+  .dropdown .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+}
+@media (max-width: 500px) {
+  .dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 500px) {
+  .dropdown:hover .dropbtn {
+    background-color: #4c80e0;
+  }
 }
 /* =================== */
 /* Scrolling Marquee */
@@ -266,10 +316,21 @@ body {
   justify-content: center;
   align-content: space-between;
 }
+@media (max-width: 500px) {
+  .about-risk {
+    width: 98%;
+  }
+}
 .about-risk h3 {
   align-self: center;
+  margin-top: 2%;
   margin-bottom: 1%;
   font-size: 2rem;
+}
+@media (max-width: 500px) {
+  .about-risk h3 {
+    width: 81%;
+  }
 }
 .about-risk p {
   align-self: center;
@@ -278,7 +339,19 @@ body {
   font-size: 1.4rem;
   color: black;
 }
+@media (max-width: 500px) {
+  .about-risk p {
+    width: 79%;
+    margin-top: 1.5%;
+  }
+}
 .about-risk img {
   width: 25%;
   margin: 0 0 2% 37%;
+}
+@media (max-width: 500px) {
+  .about-risk img {
+    width: 61%;
+    margin: 2.3% 1% 2% 22%;
+  }
 }

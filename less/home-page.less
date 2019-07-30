@@ -2,11 +2,60 @@ body{
     background: rgb(236, 230, 230);
   }
 .dropdown{
-    @mobile @phone{
+    @media @phone{
+        position: relative;
         display: flex;
+        justify-content: center;
+        margin-top: 1%;
     }
+    .dropbtn {
+        @media @phone {
+            background-color: #4c80e0;
+            color: white;
+            padding: 3% 10% 3% 10%;
+            font-size: 1.6rem;
+            border: none;
+            border-radius: 1rem;
+        }
+    }//END .dropbtn
+    .dropdown-content {
+        @media @phone {
+            display: none;
+            position: absolute;
+            margin-top: 11.9%;
+            background-color: #4C80E0;
+            min-width: 140px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        a {
+            @media @phone{
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;  
+            }
+        }
+        a:hover{
+            @media @phone{
+                background-color: #ddd;   
+            }
+        }
+    }//END .dropdown-content
 }//END dropdown
-
+.dropdown:hover .dropdown-content{
+    @media @phone{
+        display: flex;
+        flex-direction: column;
+        // justify-content: flex-end;
+    }
+}
+.dropdown:hover .dropbtn {
+    @media @phone {
+        background-color: #4c80e0;
+        }
+}
+// END DROPDOWN MENU    
   /* =================== */
   /* Scrolling Marquee */
   .Marquee h3{
@@ -93,12 +142,23 @@ body{
      flex-direction: column;
      justify-content:center;
      align-content: space-between; 
+
+     @media @phone {
+         width: 98%;
+     }
      
       h3 {
-//border: 1px solid red;
+// border: 1px solid red;
    align-self: center;
+   margin-top: 2%;
    margin-bottom: 1%;
    font-size: 2rem;
+
+   @media @phone {
+    // border: 1px solid red;
+    width: 81%;
+    font-size: 1.7rem;
+    margin-left: 30%;
   }
    p {
     // border: 1px solid red;
@@ -107,10 +167,20 @@ body{
     width: 40%;
     font-size: 1.4rem;
     color: black;
+
+    @media @phone {
+        width: 79%;
+        margin-top: 1.5%;
+    }
   }
   img{
       width: 25%;
       margin: 0 0 2% 37%;
+
+      @media @phone {
+          width: 61%;
+          margin: 2.3% 1% 2% 22%;
+      }
   }
 }
      
