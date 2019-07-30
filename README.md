@@ -6,13 +6,13 @@ Thank you!
 Home Page Landing 
 
 Create a home page containing:
-1. navbar, 
-2. stock market feel (scrolling marquee) 
-3. style and some about info
+[X] 1. navbar, 
+[X] 2. stock market feel (scrolling marquee) 
+[X] 3. style and some about info
 
 ##Monday
-- Marketing landing page scaffolded with common layout structure implemented
-- Mobile screen width features starting to come into play
+[X] Marketing landing page scaffolded with common layout structure implemented
+[X] Mobile screen width features starting to come into play
 - Lorem ipsum can be used to fill in your content on your pages. Links listed below
     - [https://www.bobrosslipsum.com/](https://www.bobrosslipsum.com/)
     - [https://www.lipsum.com/](https://www.lipsum.com/)
