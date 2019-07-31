@@ -3,6 +3,11 @@
 
 ## My site is published at https://equity-risk-ratings.github.io/Home-Page-Griffin/
 
+My Site uses:
+LESS;
+Media Queries for Tablet (max width 800px) & Phone (max width 500px);
+
+
 # Home-Page
 Home Page Landing 
 
