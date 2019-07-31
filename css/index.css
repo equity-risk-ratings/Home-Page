@@ -221,12 +221,13 @@ table {
   display: flex;
   justify-content: center;
   background: rgba(84, 150, 211, 0.89);
-  margin-left: 10%;
+  margin: 2% 0 0 10%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .meet-the-team h1 {
   width: 616px;
   height: 109px;
+  font-size: 2rem;
   text-align: center;
   padding-top: 2.7%;
   background: #AEC8E7;
@@ -253,7 +254,7 @@ table {
 .top-team {
   width: 78.87%;
   display: grid;
-  margin-left: 10%;
+  margin: 0 0 0 10%;
   grid: 15.3rem / auto auto auto;
   grid-gap: 10px;
   background: rgba(84, 150, 211, 0.89);
@@ -298,6 +299,10 @@ table {
 .top-team .ds h2,
 .top-team .ds p {
   background-color: #cccecb;
+}
+.top-team .ds h2,
+.top-team .ds p {
+  margin-top: 3%;
 }
 .top-team .ds h2:hover,
 .top-team .ds p:hover {
