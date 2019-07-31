@@ -9,7 +9,6 @@
     margin-left: 10%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-
         h1{
         width: 616px;
         height: 109px;
@@ -23,7 +22,6 @@
         border-radius: 7px;
 
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
     }
     // NAV back home
     nav, a{
@@ -55,6 +53,13 @@
     grid-gap: 10px;
     background: rgba(84, 150, 211, 0.89);
     padding: 10px; 
+
+    @media @phone{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background: black;
+    }
 
     div,h2,p {
         // border: 2px solid red;
