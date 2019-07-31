@@ -1,0 +1,115 @@
+.meet-the-team {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  background: rgba(84, 150, 211, 0.89);
+  margin-left: 10%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.meet-the-team h1 {
+  width: 616px;
+  height: 109px;
+  text-align: center;
+  padding-top: 2.7%;
+  background: #AEC8E7;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.meet-the-team nav,
+.meet-the-team a {
+  font-size: 1.5rem;
+  margin-left: -600%;
+  margin-right: 780%;
+  margin-top: 80%;
+  color: black;
+  text-decoration: none;
+}
+.meet-the-team a:hover {
+  transition: all 0.2s ease-in-out;
+  border: 1px solid white;
+  transform: scale(1.1);
+  border-radius: 7px;
+}
+.top-team {
+  width: 78.87%;
+  display: grid;
+  margin-left: 10%;
+  grid: 15.3rem / auto auto auto;
+  grid-gap: 10px;
+  background: rgba(84, 150, 211, 0.89);
+  padding: 10px;
+}
+.top-team div,
+.top-team h2,
+.top-team p {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  background-color: #AEC8E7;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.top-team h2,
+.top-team p {
+  background-color: #d8d8d8;
+}
+.top-team h2:hover,
+.top-team p:hover {
+  background-color: #008CBA;
+  color: white;
+}
+.top-team div {
+  border: 1px solid black;
+  border-radius: 7px;
+}
+.top-team .ds {
+  border: 1px solid black;
+}
+.top-team .ds div,
+.top-team .ds h2,
+.top-team .ds p {
+  background-color: #cccecb;
+}
+.top-team .ds h2:hover,
+.top-team .ds p:hover {
+  background-color: #008CBA;
+  color: white;
+}
+.solo {
+  width: 78.87%;
+  display: grid;
+  margin-left: 10%;
+  grid: 15.3rem;
+  grid-gap: 10px;
+  background: rgba(84, 150, 211, 0.89);
+  padding: 10px;
+}
+.solo div,
+.solo h2,
+.solo p {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  background-color: #AEC8E7;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.solo h2,
+.solo p {
+  background-color: #d8d8d8;
+}
+.solo h2:hover,
+.solo p:hover {
+  background-color: #008CBA;
+  color: white;
+}
+.solo .griffin {
+  border: 1px solid black;
+  margin-left: 34.5%;
+  width: 29.5%;
+  border-radius: 7px;
+}
