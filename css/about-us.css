@@ -100,6 +100,7 @@
 }
 .solo h2,
 .solo p {
+  margin-bottom: 1%;
   background-color: #d8d8d8;
 }
 .solo h2:hover,
@@ -110,6 +111,26 @@
 .solo .griffin {
   border: 1px solid black;
   margin-left: 34.5%;
+  margin-bottom: 1%;
   width: 29.5%;
+  height: 240px;
   border-radius: 7px;
+}
+.solo .left-img {
+  width: 25%;
+  margin: 2% 0 -30% 5%;
+  border-radius: 7px;
+  border: 1px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.solo .right-img {
+  width: 84%;
+  margin: -47% -220% 27% -5%;
+  border-radius: 7px;
+  border: 1px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.solo .right-img:hover,
+.solo .left-img:hover {
+  opacity: 0.5;
 }
