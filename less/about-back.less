@@ -1,14 +1,20 @@
+.body {
+    // border: 1px solid red;
+    background-color: rgba(59, 59, 59, 0.842);
+    width: 80%;
+    margin-left: 10%;
+}
 .nav-container{
     // border: 1px solid red;
     width: 80%;
     margin: 0 0 0 10%;
-    background-color: rgba(59, 59, 59, 0.842);
+    background-color: @nav-color;
+    font-family: 'Nunito', sans-serif;
     img{
         width: 45%;
         align-self: flex-start;
         margin-top: 1%;
     }
-
     nav{
         // border: 1px solid red;
         display: flex;
@@ -29,4 +35,103 @@
             transition: all .2s;
             padding: 15px;
         }   
+}//END NAV Conatainer
+//BEGIN INTRO
+.intro{
+    // border: 1px solid red;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 0 0 10%;
+    h1, p{
+    font-size: 1.5rem;
+    font-family: "sofia-pro",sans-serif;;
+     margin-left: 1%;
+    }
+    p{
+        font-size: 1.3rem;
+        margin: 1% 0 0 1%;;
+    }
+}
+
+// DS TEAM START
+.data-science-team {
+    border: 1px solid white;
+    width: 78.98%;
+    margin: 1% 0 0 10%; 
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color:@nav-color;
+    padding: 10px;
+    border-radius: 7px;
+
+    div{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 7px;
+    }
+    p {
+        font-size: 1.2rem;
+        font-family: @nav-font;
+    }
+}/// DS TEAM END
+
+// Front End TEAM Start
+.front-end-team1 {
+    border: 1px solid white;
+    width: 78.98%;
+    margin: 1% 0 0 10%; 
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color:@nav-color;
+    padding: 10px;
+    border-radius: 7px;
+    div{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 7px;
+    } 
+    p {
+        font-size: 1.2rem;
+        font-family: @nav-font;
+    }
+}//END FRONT END TEAM1
+.front-end-team2 {
+    border: 1px solid white;
+    width: 78.98%;
+    margin: 1% 0 0 10%; 
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color:@nav-color;
+    padding: 10px;
+    border-radius: 7px;
+    div{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 7px;
+    } 
+    p {
+        font-size: 1.2rem;
+        font-family: @nav-font;
+    }
+}//END FRONT END TEAM2
+
+//BOTTOM IMAGE
+.stock-building{
+    border: 1px solid red;
+    // margin-left: 10%; 
 }
