@@ -133,6 +133,7 @@ table {
   justify-content: space-between;
   align-content: center;
   margin: 2% 20%;
+  font-family: 'Crimson Pro', serif;
 }
 @media (max-width: 500px) {
   .header-container nav {
@@ -331,7 +332,7 @@ table {
 }
 .solo h2,
 .solo p {
-  margin-bottom: 1%;
+  margin-top: 5%;
   background-color: #d8d8d8;
 }
 .solo h2:hover,
@@ -637,4 +638,33 @@ body {
     width: 50%;
     margin: 1.5% 0 1.5% 25%;
   }
+}
+.nav-container {
+  width: 80%;
+  margin: 0 0 0 10%;
+  background-color: rgba(59, 59, 59, 0.842);
+}
+.nav-container img {
+  width: 45%;
+  align-self: flex-start;
+  margin-top: 1%;
+}
+.nav-container nav {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.nav-container a {
+  align-self: center;
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 7px;
+  padding: 10px;
+  box-shadow: 5px 3px #f8f7f769;
+}
+.nav-container a:hover {
+  transition: all 0.2s;
+  padding: 15px;
 }
