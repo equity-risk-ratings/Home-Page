@@ -443,8 +443,6 @@ table {
 /* =============== */
 /* about-section */
 .about-risk {
-  border-top: 1.5px dashed grey;
-  border-bottom: 1.5px dashed grey;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -462,7 +460,6 @@ table {
   }
 }
 .about-risk h3 {
-  border: 1px solid red;
   align-self: center;
   margin-top: 2%;
   margin-bottom: 1%;
