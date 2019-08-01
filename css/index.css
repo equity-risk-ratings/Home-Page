@@ -214,13 +214,16 @@ table {
 }
 @media (max-width: 1000px) {
   .copyright {
+    margin-top: 27rem;
     color: #22283B;
-    background: #f4f4f4;
+    background: #3b3b3b;
     padding: 20px 0;
     border: 1px double #e0e0e0;
+    border-radius: 7px;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
 }
 .body-index {
@@ -229,6 +232,11 @@ table {
   margin-left: 10%;
   background-size: 100% 100%;
   height: 100vh;
+}
+@media (max-width: 1000px) {
+  .body-index {
+    height: 50vh;
+  }
 }
 .body-index::after {
   content: "";
@@ -294,9 +302,9 @@ table {
   .dropdown .dropdown-content {
     display: none;
     position: absolute;
-    margin-top: 8%;
+    margin-top: 13.5%;
     background-color: rgba(59, 59, 59, 0.842);
-    min-width: 176px;
+    min-width: 135px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     text-align: center;
@@ -551,8 +559,7 @@ table {
 }
 @media (max-width: 1000px) {
   .nav-container img {
-    margin-left: 26%;
-    margin-bottom: 2%;
+    display: none;
   }
 }
 .nav-container img:hover {
