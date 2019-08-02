@@ -1,7 +1,7 @@
  
 **Please do not clone, add, commit or push on this repo as this is my personal repo for build week. Thank you!**
 
-## My site is published at https://equity-risk-ratings.github.io/Home-Page-Griffin/
+## My site is published at https://focused-banach-6a6922.netlify.com/
 
 My Site uses:
 LESS;
