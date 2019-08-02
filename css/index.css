@@ -214,7 +214,7 @@ table {
 }
 @media (max-width: 1000px) {
   .copyright {
-    margin-top: 27rem;
+    margin-top: 19rem;
     color: #22283B;
     background: #3b3b3b;
     padding: 20px 0;
@@ -299,7 +299,7 @@ table {
   .dropdown .dropdown-content {
     display: none;
     position: absolute;
-    margin-top: 13.5%;
+    margin-top: 8.5%;
     background-color: rgba(59, 59, 59, 0.842);
     min-width: 135px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -357,18 +357,19 @@ table {
 }
 /* =================== */
 /* Scrolling Marquee */
-.Marquee h3 {
+.Marquee {
   display: flex;
   justify-content: center;
   align-content: center;
   font-size: 1.7rem;
   color: white;
-  margin: 0 0 1% 0;
+  margin-top: 1.5rem;
 }
 @media (max-width: 500px) {
-  .Marquee h3 {
-    margin: 2.3% 0;
-    font-size: 1.5rem;
+  .Marquee {
+    border: 1px solid red;
+    margin-top: 1.5rem;
+    font-size: 3rem;
   }
 }
 /* ============ */
@@ -379,6 +380,7 @@ table {
   flex-direction: column;
   justify-content: center;
   align-content: space-between;
+  margin-top: 6rem;
 }
 @media (max-width: 500px) {
   .header-content {
@@ -387,6 +389,7 @@ table {
     flex-direction: column;
     justify-content: center;
     align-content: space-around;
+    margin-top: 6rem;
   }
 }
 @media (max-width: 1000px) {
