@@ -1,6 +1,7 @@
 /* =================== */
       /* NAVIGATION STYLE */
 .footer-container{
+    display: none;
     // border: 1px solid red;
         @media @phone {
             display: none;
@@ -20,6 +21,10 @@
         nav a:hover{
         color: white;
     } 
+
+    @media @tablet {
+        display: none;
+    }
 }
 
 .copyright {
@@ -33,6 +38,18 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    @media @tablet{
+        margin-top: 27rem;
+        color: #22283B;
+        background: rgb(59, 59, 59);
+        padding: 20px 0;
+        border: 1px double #e0e0e0;
+        border-radius: 7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 }
       

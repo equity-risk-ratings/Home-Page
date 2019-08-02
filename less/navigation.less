@@ -5,7 +5,7 @@
   justify-content: space-between;
   align-content: center;
   margin: 2% 20%;
-
+  font-family: @nav-font;
   @media @phone {
     display: none;
     // border: 1px solid red;
@@ -14,11 +14,17 @@
     opacity: 0.8;
     margin: 5% 0 0 10%;
   }
+  @media @tablet {
+    display: none;
+  }
 
   a{
     text-decoration: none;
     font-size: 1.4rem;
     color: black;
+    // border: 1px solid white;
+    box-shadow: 5px 2px 5px 2px#888888;
+    color: white;
 
     @media @phone {
       text-decoration: none;
@@ -26,7 +32,8 @@
 
   }
   a:hover{
-    color: white;
+    transition: ease-in-out 0.39s;
+    padding: 3px;
   } 
 }
 
