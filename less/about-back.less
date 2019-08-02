@@ -11,6 +11,7 @@
         background-color:rgba(59, 59, 59, 0.842);
         height: 140vh;
     } 
+   
 }
 .nav-container{
     // border: 1px solid red;
@@ -35,7 +36,6 @@
         }
         @media @tablet{
           display: none;
-          
         }
     }
     img:hover{
@@ -72,6 +72,10 @@
         a:hover{
             transition: all .2s;
             padding: 15px;
+            @media @tablet{
+                transition: all .2s;
+                padding: 10px;
+            }
         }   
 }//END NAV Conatainer
 //BEGIN INTRO
@@ -87,13 +91,22 @@
     padding: 1rem;
     @media @phone {
         width: 71.5%;
+        margin-left: 10%;
+    }
+    @media @tablet{
+        margin-top: 5%;
+        // margin-left: 25%;
     }
     h1, p{
     font-size: 1.5rem;
     font-family: "sofia-pro",sans-serif;;
     margin-left: 1%;
     color: whitesmoke;
+    @media @tablet{
+            align-self: center;
+        }
     }
+    
     p{
         font-size: 1.3rem;
         margin: 1% 0 0 1%;
@@ -121,6 +134,9 @@
     justify-content: center;
     align-content: center;
     width: 73.5%; 
+    }
+    @media @tablet{
+        margin-top: 5%;
     }
     div{
     background-color: rgba(255, 255, 255, 0.8);

@@ -234,9 +234,6 @@ table {
   height: 100vh;
 }
 @media (max-width: 1000px) {
-  .body-index {
-    height: 50vh;
-  }
 }
 .body-index::after {
   content: "";
@@ -494,6 +491,7 @@ table {
   .about-risk p {
     width: 90%;
     margin-top: 1.5%;
+    margin-top: 520rem;
   }
 }
 @media (max-width: 1000px) {
@@ -595,6 +593,12 @@ table {
   transition: all 0.2s;
   padding: 15px;
 }
+@media (max-width: 1000px) {
+  .nav-container a:hover {
+    transition: all 0.2s;
+    padding: 10px;
+  }
+}
 .intro {
   display: flex;
   justify-content: flex-start;
@@ -608,6 +612,12 @@ table {
 @media (max-width: 500px) {
   .intro {
     width: 71.5%;
+    margin-left: 10%;
+  }
+}
+@media (max-width: 1000px) {
+  .intro {
+    margin-top: 5%;
   }
 }
 .intro h1,
@@ -616,6 +626,12 @@ table {
   font-family: "sofia-pro", sans-serif;
   margin-left: 1%;
   color: whitesmoke;
+}
+@media (max-width: 1000px) {
+  .intro h1,
+  .intro p {
+    align-self: center;
+  }
 }
 .intro p {
   font-size: 1.3rem;
@@ -644,6 +660,11 @@ table {
     justify-content: center;
     align-content: center;
     width: 73.5%;
+  }
+}
+@media (max-width: 1000px) {
+  .data-science-team {
+    margin-top: 5%;
   }
 }
 .data-science-team div {
